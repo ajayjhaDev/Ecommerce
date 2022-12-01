@@ -1,0 +1,8 @@
+.add:hover {
+  background-color: rgb(170, 87, 131);
+}
+
+i {
+  font-size: 28px;
+  cursor: pointer;
+}
