@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import { useSelector } from "react-redux";
 
@@ -47,15 +48,15 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="products">
                   Products
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item ms-5">

@@ -16,7 +16,9 @@ const Products = () => {
 
   return (
     <>
-      <h5 className="text-center mb-5 mt-5">Buy Our Products Now</h5>
+      <h5 className="text-center mb-5 mt-5" id="products">
+        Buy Our Products Now
+      </h5>
 
       <div className="row row-cols-4">
         {products.map((ele) => (

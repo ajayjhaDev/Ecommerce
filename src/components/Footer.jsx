@@ -32,7 +32,9 @@ const Footer = () => {
 
   return (
     <>
-      <h5 className="text-center mt-5">Contact Us</h5>
+      <h5 className="text-center mt-5" id="contact">
+        Contact Us
+      </h5>
 
       <section className="container row mx-auto mt-5">
         <div className="col-lg-6">
