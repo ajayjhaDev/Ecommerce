@@ -9,6 +9,8 @@ const Product = ({ id, title, price, img, category }) => {
   const dispatch = useDispatch();
   const handleAddToCart = (items) => {
     dispatch(cartActions.AddProducts(items));
+
+    alert(`${items.title} has been Added to Cart`);
   };
 
   return (

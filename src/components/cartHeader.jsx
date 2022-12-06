@@ -10,9 +10,9 @@ const CartHeader = () => {
         style={{ backgroundColor: " #e3f2fd" }}
       >
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to={"/"}>
             OnlineShop
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
